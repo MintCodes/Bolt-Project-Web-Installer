@@ -1,15 +1,24 @@
-Long Description:
-This repository is built on the belief that simplicity is genius and complexity is overrated. Inspired by the ease of use of Bolt.new, this PHP script provides a straightforward way to deploy your projects without unnecessary complications.
+![alt text](https://i.postimg.cc/v8z2YxV0/social-preview-index.png)
 
-Features:
+### Description  
+I created this script as my first-ever PHP project to make complex things easier for users. It’s specifically designed for handling Bolt.New `.zip` exported projects, helping users install dependencies and address vulnerabilities with minimal effort.  
 
-Bolt.new-Inspired Simplicity: Upload your .zip project file containing your code from Bolt.new and deploy it effortlessly.
-Automatic Extraction: The script unzips your project file to a specified directory on your server.
-Dependency Installation: It automatically runs npm install (or any similar package manager command) to install all the necessary packages like Next.js, Vite, TypeScript, and more.
-Minimal Effort: No need for complex deployment pipelines. Just upload, click, and go. Genius should be simple.
-Usage:
+Key features include:  
+- **Beginner-Friendly Approach**: Simplifies dependency management for users who find Composer or npm challenging.  
+- **Tailored for Bolt.New Projects**: Works seamlessly with `.zip` files exported from Bolt.New.  
+- **Dependency Detection and Installation**: Automatically scans for `composer.json` and `package.json` files and installs dependencies.  
+- **Vulnerability Detection and Fixing**: Attempts to detect and resolve vulnerabilities in project dependencies (though this feature might not always work as expected).  
+- **Detailed Guide**: Includes a step-by-step guide to make the setup process straightforward.  
+- **Debugging and Issue Reporting**: Provides clear output logs for troubleshooting and encourages users to report issues.  
 
-Upload installer.php to your server.
-Visit it via your domain, e.g., https://yourdomain.com/installer.php.
-Upload your project .zip, and let the script do the rest.
-This tool is perfect for developers who value simplicity and want to avoid unnecessary complications when deploying JavaScript-based projects.
+### Screenshot 
+ ![alt text](https://i.postimg.cc/rwvQnSBw/growlotto-com-installer-php.png)
+
+### Contact  
+If you encounter any issues or have feedback, feel free to reach out:  
+- **Twitter**: [@JustyGGs](https://x.com/JustyGGs)  
+- **Discord**: JustyGG  
+
+---  
+
+2024.
